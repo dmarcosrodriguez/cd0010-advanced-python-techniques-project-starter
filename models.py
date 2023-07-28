@@ -44,10 +44,25 @@ class NearEarthObject:
         # You should coerce these values to their appropriate data type and
         # handle any edge cases, such as a empty name being represented by `None`
         # and a missing diameter being represented by `float('nan')`.
+        
+        
         self.designation = ''
         self.name = None
         self.diameter = float('nan')
         self.hazardous = False
+        self._fullname = ''
+        
+        
+        for key in info.keys():
+            match key:
+                case 'designation':
+                    self.designation = info[key]
+                case 'diameter':
+                    self.diameter = info[key]
+                case 'name':
+                    self.name = info[key]
+                case 'hazardous':
+                    self.hazardous = info[key]
 
         # Create an empty initial collection of linked approaches.
         self.approaches = []
@@ -56,7 +71,10 @@ class NearEarthObject:
     def fullname(self):
         """Return a representation of the full name of this NEO."""
         # TODO: Use self.designation and self.name to build a fullname for this object.
-        return ''
+        return self._fullname
+    @fullname.setter
+    def fullname(self, full_name):
+        self._fullname = full_name
 
     def __str__(self):
         """Return `str(self)`."""
@@ -99,6 +117,20 @@ class CloseApproach:
         self.time = None  # TODO: Use the cd_to_datetime function for this attribute.
         self.distance = 0.0
         self.velocity = 0.0
+        
+        print(info)
+        
+        for key in info.keys():
+        print(key)
+            match key:
+                case 'designation':
+                    self._designation = info[key]
+                case 'time':
+                    self.time = cd_to_datetime(info[key])
+                case 'distance':
+                    self.distance = info[key]
+                case 'velocity':
+                    self.velocity = info[key]
 
         # Create an attribute for the referenced NEO, originally None.
         self.neo = None
@@ -132,3 +164,5 @@ class CloseApproach:
         """Return `repr(self)`, a computer-readable string representation of this object."""
         return f"CloseApproach(time={self.time_str!r}, distance={self.distance:.2f}, " \
                f"velocity={self.velocity:.2f}, neo={self.neo!r})"
+
+
