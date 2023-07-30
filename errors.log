@@ -1,0 +1,26 @@
+test_approach_distance_is_float (tests.test_extract.TestLoadApproaches.test_approach_distance_is_float) ... ok
+test_approach_time_is_datetime (tests.test_extract.TestLoadApproaches.test_approach_time_is_datetime) ... ok
+test_approach_velocity_is_float (tests.test_extract.TestLoadApproaches.test_approach_velocity_is_float) ... ok
+test_approaches_are_collection (tests.test_extract.TestLoadApproaches.test_approaches_are_collection) ... ok
+test_approaches_contain_all_elements (tests.test_extract.TestLoadApproaches.test_approaches_contain_all_elements) ... ok
+test_approaches_contain_close_approaches (tests.test_extract.TestLoadApproaches.test_approaches_contain_close_approaches) ... ok
+test_adonis_is_potentially_hazardous (tests.test_extract.TestLoadNEOs.test_adonis_is_potentially_hazardous) ... ok
+test_asclepius_has_name_no_diameter (tests.test_extract.TestLoadNEOs.test_asclepius_has_name_no_diameter) ... ok
+test_neos_are_collection (tests.test_extract.TestLoadNEOs.test_neos_are_collection) ... ok
+test_neos_contain_2019_SC8_no_name_no_diameter (tests.test_extract.TestLoadNEOs.test_neos_contain_2019_SC8_no_name_no_diameter) ... ok
+test_neos_contain_all_elements (tests.test_extract.TestLoadNEOs.test_neos_contain_all_elements) ... ok
+test_neos_contain_near_earth_objects (tests.test_extract.TestLoadNEOs.test_neos_contain_near_earth_objects) ... ok
+test_database_construction_ensures_each_neo_has_an_approaches_attribute (tests.test_database.TestDatabase.test_database_construction_ensures_each_neo_has_an_approaches_attribute) ... ok
+test_database_construction_ensures_neos_collectively_exhaust_approaches (tests.test_database.TestDatabase.test_database_construction_ensures_neos_collectively_exhaust_approaches) ... ok
+test_database_construction_ensures_neos_mutually_exclude_approaches (tests.test_database.TestDatabase.test_database_construction_ensures_neos_mutually_exclude_approaches) ... ok
+test_database_construction_links_approaches_to_neos (tests.test_database.TestDatabase.test_database_construction_links_approaches_to_neos) ... ok
+test_get_neo_by_designation (tests.test_database.TestDatabase.test_get_neo_by_designation) ... ok
+test_get_neo_by_designation_missing (tests.test_database.TestDatabase.test_get_neo_by_designation_missing) ... ok
+test_get_neo_by_designation_neos_with_year (tests.test_database.TestDatabase.test_get_neo_by_designation_neos_with_year) ... ok
+test_get_neo_by_name (tests.test_database.TestDatabase.test_get_neo_by_name) ... ok
+test_get_neo_by_name_missing (tests.test_database.TestDatabase.test_get_neo_by_name_missing) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 1.784s
+
+OK

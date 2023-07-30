@@ -81,7 +81,13 @@ class NearEarthObject:
         # TODO: Use this object's attributes to return a human-readable string representation.
         # The project instructions include one possibility. Peek at the __repr__
         # method for examples of advanced string formatting.
-        return f"A NearEarthObject ..."
+        haz = 'is not'
+        if self.hazardous:
+            haz = 'is'
+        fn = self._fullname
+        if self.name is not None:
+            fn = self.name
+        return f"NEO {fn} has a diameter of {self.diameter:.3f} km and {haz} potentially hazardous."
 
     def __repr__(self):
         """Return `repr(self)`, a computer-readable string representation of this object."""
@@ -117,23 +123,24 @@ class CloseApproach:
         self.time = None  # TODO: Use the cd_to_datetime function for this attribute.
         self.distance = 0.0
         self.velocity = 0.0
-        
-        print(info)
-        
+                
         for key in info.keys():
-        print(key)
             match key:
                 case 'designation':
                     self._designation = info[key]
                 case 'time':
                     self.time = cd_to_datetime(info[key])
                 case 'distance':
-                    self.distance = info[key]
+                    self.distance = float(info[key])
                 case 'velocity':
-                    self.velocity = info[key]
+                    self.velocity = float(info[key])
 
         # Create an attribute for the referenced NEO, originally None.
-        self.neo = None
+        #neos = load_neos('data/neos.csv')
+        self.neo = None #neos[self._designation]
+    @property
+    def designation(self):
+        return self._designation
 
     @property
     def time_str(self):
@@ -158,7 +165,7 @@ class CloseApproach:
         # TODO: Use this object's attributes to return a human-readable string representation.
         # The project instructions include one possibility. Peek at the __repr__
         # method for examples of advanced string formatting.
-        return f"A CloseApproach ..."
+        return f"At {self.time_str()}, '{self.neo.fullname}' approaches Earth at a distance of {self.distance:.2f} au and a velocity of {self.velocity:.2f} km/s."
 
     def __repr__(self):
         """Return `repr(self)`, a computer-readable string representation of this object."""
