@@ -1,0 +1,271 @@
+.FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF...F..
+======================================================================
+FAIL: test_query_approaches_after_april (tests.test_query.TestQuery.test_query_approaches_after_april)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 75, in test_query_approaches_after_april
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_approaches_before_july (tests.test_query.TestQuery.test_query_approaches_before_july)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 88, in test_query_approaches_before_july
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_approaches_in_march (tests.test_query.TestQuery.test_query_approaches_in_march)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 102, in test_query_approaches_in_march
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_approaches_in_march_with_distance_and_velocity_bounds (tests.test_query.TestQuery.test_query_approaches_in_march_with_distance_and_velocity_bounds)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 414, in test_query_approaches_in_march_with_distance_and_velocity_bounds
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_approaches_in_march_with_distance_bounds_and_max_velocity (tests.test_query.TestQuery.test_query_approaches_in_march_with_distance_bounds_and_max_velocity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 390, in test_query_approaches_in_march_with_distance_bounds_and_max_velocity
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_approaches_in_march_with_min_distance_and_max_distance (tests.test_query.TestQuery.test_query_approaches_in_march_with_min_distance_and_max_distance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 367, in test_query_approaches_in_march_with_min_distance_and_max_distance
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_approaches_in_spring_with_all_bounds_and_not_potentially_hazardous_neos (tests.test_query.TestQuery.test_query_approaches_in_spring_with_all_bounds_and_not_potentially_hazardous_neos)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 529, in test_query_approaches_in_spring_with_all_bounds_and_not_potentially_hazardous_neos
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_approaches_in_spring_with_all_bounds_and_potentially_hazardous_neos (tests.test_query.TestQuery.test_query_approaches_in_spring_with_all_bounds_and_potentially_hazardous_neos)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 499, in test_query_approaches_in_spring_with_all_bounds_and_potentially_hazardous_neos
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_approaches_in_spring_with_distance_and_velocity_bounds_and_max_diameter (tests.test_query.TestQuery.test_query_approaches_in_spring_with_distance_and_velocity_bounds_and_max_diameter)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 441, in test_query_approaches_in_spring_with_distance_and_velocity_bounds_and_max_diameter
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_approaches_in_spring_with_distance_velocity_and_diameter_bounds (tests.test_query.TestQuery.test_query_approaches_in_spring_with_distance_velocity_and_diameter_bounds)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 469, in test_query_approaches_in_spring_with_distance_velocity_and_diameter_bounds
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_approaches_on_march_2 (tests.test_query.TestQuery.test_query_approaches_on_march_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 62, in test_query_approaches_on_march_2
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_approaches_on_march_2_with_max_distance (tests.test_query.TestQuery.test_query_approaches_on_march_2_with_max_distance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 332, in test_query_approaches_on_march_2_with_max_distance
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_approaches_on_march_2_with_min_distance (tests.test_query.TestQuery.test_query_approaches_on_march_2_with_min_distance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 347, in test_query_approaches_on_march_2_with_min_distance
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_with_bounds_and_a_specific_date (tests.test_query.TestQuery.test_query_with_bounds_and_a_specific_date)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 127, in test_query_with_bounds_and_a_specific_date
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_with_conflicting_date_bounds (tests.test_query.TestQuery.test_query_with_conflicting_date_bounds)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 112, in test_query_with_conflicting_date_bounds
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_with_hazardous (tests.test_query.TestQuery.test_query_with_hazardous)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 301, in test_query_with_hazardous
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_with_max_diameter (tests.test_query.TestQuery.test_query_with_max_diameter)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 249, in test_query_with_max_diameter
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_with_max_diameter_and_min_diameter (tests.test_query.TestQuery.test_query_with_max_diameter_and_min_diameter)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 278, in test_query_with_max_diameter_and_min_diameter
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_with_max_diameter_and_min_diameter_conflicting (tests.test_query.TestQuery.test_query_with_max_diameter_and_min_diameter_conflicting)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 289, in test_query_with_max_diameter_and_min_diameter_conflicting
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_with_max_distance (tests.test_query.TestQuery.test_query_with_max_distance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 141, in test_query_with_max_distance
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_with_max_distance_and_min_distance (tests.test_query.TestQuery.test_query_with_max_distance_and_min_distance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 170, in test_query_with_max_distance_and_min_distance
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_with_max_distance_and_min_distance_conflicting (tests.test_query.TestQuery.test_query_with_max_distance_and_min_distance_conflicting)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 181, in test_query_with_max_distance_and_min_distance_conflicting
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_with_max_velocity (tests.test_query.TestQuery.test_query_with_max_velocity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 195, in test_query_with_max_velocity
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_with_max_velocity_and_min_velocity (tests.test_query.TestQuery.test_query_with_max_velocity_and_min_velocity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 224, in test_query_with_max_velocity_and_min_velocity
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_with_max_velocity_and_min_velocity_conflicting (tests.test_query.TestQuery.test_query_with_max_velocity_and_min_velocity_conflicting)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 235, in test_query_with_max_velocity_and_min_velocity_conflicting
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_with_min_diameter (tests.test_query.TestQuery.test_query_with_min_diameter)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 263, in test_query_with_min_diameter
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_with_min_distance (tests.test_query.TestQuery.test_query_with_min_distance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 155, in test_query_with_min_distance
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_with_min_velocity (tests.test_query.TestQuery.test_query_with_min_velocity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 209, in test_query_with_min_velocity
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_query_with_not_hazardous (tests.test_query.TestQuery.test_query_with_not_hazardous)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_query.py", line 313, in test_query_with_not_hazardous
+    self.assertEqual(expected, received, msg="Computed results do not match expected results.")
+AssertionError: Computed results do not match expected results.
+
+======================================================================
+FAIL: test_limit_iterable_with_limit (tests.test_limit.TestLimit.test_limit_iterable_with_limit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_limit.py", line 23, in test_limit_iterable_with_limit
+    self.assertEqual(tuple(limit(self.iterable, 3)), (0, 1, 2))
+AssertionError: Tuples differ: (0, 1, 2, 3, 4) != (0, 1, 2)
+
+First tuple contains 2 additional elements.
+First extra element 3:
+3
+
+- (0, 1, 2, 3, 4)
+?         ------
+
++ (0, 1, 2)
+
+======================================================================
+FAIL: test_limit_iterator_with_smaller_limit (tests.test_limit.TestLimit.test_limit_iterator_with_smaller_limit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\dinam\Documents\David\cd0010-advanced-python-techniques-project-starter\tests\test_limit.py", line 31, in test_limit_iterator_with_smaller_limit
+    self.assertEqual(tuple(limit(iter(self.iterable), 3)), (0, 1, 2))
+AssertionError: Tuples differ: (0, 1, 2, 3, 4) != (0, 1, 2)
+
+First tuple contains 2 additional elements.
+First extra element 3:
+3
+
+- (0, 1, 2, 3, 4)
+?         ------
+
++ (0, 1, 2)
+
+----------------------------------------------------------------------
+Ran 37 tests in 2.007s
+
+FAILED (failures=31)

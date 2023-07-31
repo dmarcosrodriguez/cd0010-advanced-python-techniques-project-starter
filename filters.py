@@ -79,6 +79,29 @@ def create_filters(
         diameter_min=None, diameter_max=None,
         hazardous=None
 ):
+
+    ret = []
+    if date is not None:
+        ret.append(date_cls(operator.eq, date))
+    else:
+        if start_date is not None:
+            ret.append(date_cls(operator.gt, start_date))
+        if end_date is not None:
+            ret.append(date_cls(operator.lt, end_date))
+    if distance_min is not None:
+        ret.append(distance_cls(operator.gt, distance_min))
+    if distance_max is not None:
+        ret.append(distance_cls(operator.lt, distance_max))
+    if velocity_min is not None:
+        ret.append(velocity_cls(operator.gt, velocity_min))
+    if velocity_max is not None:
+        ret.append(velocity_cls(operator.lt, velocity_max))
+    if diameter_min is not None:
+        ret.append(diameter_cls(operator.gt, diameter_min))
+    if diameter_max is not None:
+        ret.append(diameter_cls(operator.lt, diameter_max))
+    if hazardous is not None:
+        ret.append(hazardous_cls(operator.eq, hazardous))
     """Create a collection of filters from user-specified criteria.
 
     Each of these arguments is provided by the main module with a value from the
@@ -109,7 +132,7 @@ def create_filters(
     :return: A collection of filters for use with `query`.
     """
     # TODO: Decide how you will represent your filters.
-    return ()
+    return (ret)
 
 
 def limit(iterator, n=None):
@@ -123,3 +146,28 @@ def limit(iterator, n=None):
     """
     # TODO: Produce at most `n` values from the given iterator.
     return iterator
+
+class date_cls(AttributeFilter):
+    @classmethod
+    def get(cls, approach):
+        return approach.time.date()
+		
+class distance_cls(AttributeFilter):
+    @classmethod
+    def get(cls, approach):
+        return approach.distance
+		
+class velocity_cls(AttributeFilter):
+    @classmethod
+    def get(cls, approach):
+        return approach.velocity
+		
+class diameter_cls(AttributeFilter):
+    @classmethod
+    def get(cls, approach):
+        return approach.neo.diameter
+		
+class hazardous_cls(AttributeFilter):
+    @classmethod
+    def get(cls, approach):
+        return approach.neo.hazardous
